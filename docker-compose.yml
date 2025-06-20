@@ -1,0 +1,26 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  serversse:
+    build: ./server
+    ports:
+      - "4123:4123"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_URL=redis://redis:6379
+
+  clientsse:
+    build: ./client
+    ports:
+      - "3313:3313"
+    environment:
+      - VITE_PORT=3313
+      - PORT=3313
+      - VITE_HOST=0.0.0.0
+    depends_on:
+      - serversse
+
+  
