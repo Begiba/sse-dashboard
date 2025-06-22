@@ -136,3 +136,9 @@ MIT — feel free to use, modify, and share.
 Thanks to [Redis](https://redis.io/), [Recharts](https://recharts.org/), and [Vite](https://vitejs.dev/) for making this fast and easy to build.
 
 ---
+
+## 👨‍💻 Author  
+#Enjoy Coding (Began BALAKRISHNAN) ❤️
+
+---
+
