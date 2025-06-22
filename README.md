@@ -1,5 +1,3 @@
-
-````markdown
 # 📊 SSE Dashboard
 
 **SSE** is a **powerful, simple, and efficient** way to handle **server-to-client real-time updates** without the overhead of WebSockets or polling.
@@ -37,7 +35,7 @@ A real-time dashboard using **Server-Sent Events (SSE)** to display simulated sy
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sse-dashboard.git
+git clone https://github.com/Begiba/sse-dashboard.git
 cd sse-dashboard
 ````
 
